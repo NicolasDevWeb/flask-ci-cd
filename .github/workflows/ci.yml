@@ -31,7 +31,6 @@ jobs:
       - name: Message de succès
         run: echo "Tous les tests sont passés avec succès !"
 
-jobs:
   build:
     name: build
     runs-on: ubuntu-latest
