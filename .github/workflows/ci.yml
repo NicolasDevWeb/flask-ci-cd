@@ -23,7 +23,7 @@ jobs:
           python-version: '3.11'
 
       - name: Installation des dépendances
-        run: pip install -r api/requirements.txt
+        run: pip install -r flask-ci-cd/api/requirements.txt
 
       - name: Exécution des tests
         run: pytest api/
